@@ -1,0 +1,37 @@
+﻿{
+  "_defaults": {
+    "customer": "hl_a42696c7",
+    "password": "ytoroa2h390p"
+  },
+  "proxies": [
+    {
+      "bypass_proxy": "offf",
+      "history": true,
+      "ips": [
+        "178.171.52.162",
+        "178.171.90.94",
+        "178.171.90.148",
+        "178.171.90.153",
+        "178.171.91.230"
+      ],
+      "keep_alive": 45,
+      "last_preset_applied": "sequential",
+      "max_requests": "1:9999999999",
+      "multiply": 5,
+      "multiply_ips": true,
+      "pool_size": 0,
+      "port": 24000,
+      "proxy_count": 2,
+      "proxy_switch": 3,
+      "reverse_lookup_dns": true,
+      "seed": "1",
+      "session": false,
+      "session_duration": "5:9999999999",
+      "session_random": false,
+      "socks": 24001,
+      "vips": [
+      ],
+      "zone": "static"
+    }
+  ]
+}
